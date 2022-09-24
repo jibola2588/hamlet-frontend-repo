@@ -1,0 +1,14 @@
+video {
+    object-fit: cover !important;
+    position: relative;
+    height: 280.15px !important;
+    width: 397.43px !important;
+    border: 25px solid white;
+    /* z-index: 1; */
+}
+
+@media (max-width:320px) {
+    video {
+        width: 260px;
+    }
+}

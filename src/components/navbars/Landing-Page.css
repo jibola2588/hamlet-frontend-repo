@@ -1,0 +1,22 @@
+@media (max-width:900px){ 
+    .nav-link{ 
+        margin-left: 0px;
+        padding: 5px 5px;
+    }
+    .nav-btn1,.nav-btn2{ 
+        padding: 10px 15px; 
+    }
+    .nav-info{ 
+        padding-left:20px;
+    }
+}
+@media (max-width:650px){ 
+    .nav-info{ 
+        padding-left:3px;
+    }
+}
+@media (max-width:400px){ 
+    .nav-info{ 
+        padding-left:0px;
+    }
+}

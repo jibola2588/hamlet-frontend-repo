@@ -1,0 +1,23 @@
+@media (max-width:500px){ 
+      .testimony{ 
+          display:flex;
+          flex-direction:column;
+          gap:10px;
+      }
+       .testimony-left{ 
+           padding-right:0px;
+           width:100%;
+       }
+       .testimony-right{ 
+        width:90%; 
+       }
+      .testimony-left div{ 
+        display:flex;
+        flex-direction:column;
+        gap:2px;
+      }
+      .testimony-left div .right{ 
+       padding-left: 0px;
+      }
+     
+}

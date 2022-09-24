@@ -1,0 +1,35 @@
+@media (max-width:770px) {
+    .shape2 {
+       margin-left: 5rem!important;
+    }
+}
+@media (max-width:640px) {
+    .shape2 {
+       margin-left: 7rem!important;
+    }
+   
+}
+@media (min-width:400px) and (max-width:640px){
+    .heroImage{
+        margin-top: -10.5rem;
+    }
+}
+@media (max-width:400px) {
+    .heroImage{
+        margin-top: -5rem;
+    }
+}
+@media (max-width:500px) {
+    .shape2 {
+       margin-left: 2rem!important;
+    }
+}
+@media (max-width:350px) {
+    .shape2 {
+       margin-left: -1rem!important;
+       margin-top: 1rem!important;
+    }
+    .heroImage{
+        margin-top: -5rem;
+    }
+}
