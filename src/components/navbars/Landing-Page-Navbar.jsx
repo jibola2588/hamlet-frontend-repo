@@ -62,13 +62,6 @@ const Navbar = () => {
                   >
                    About us
                   </Link>  
-
-                  <Link
-                    to="/blog"
-                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-white"
-                  >
-                   Blog
-                  </Link>
                 </div>
               </div>
             </div>

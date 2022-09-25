@@ -4,6 +4,7 @@ import CoursePage from "./pages/coursePage/CoursePage";
 import { BlogPage } from "./pages/blogPage/BlogPage";
 import { ContactUs } from "./pages/contactUsPage/ContactUs";
 import AboutUs from "./pages/AboutUsPage/AboutUs";
+import { SignUp } from "./pages/signup/SignUp";
 
 
 const App = () => {
@@ -13,8 +14,9 @@ const App = () => {
         <Route path="/" element={<LandingPage />} />
         <Route path="/courses" element={<CoursePage />} />
         <Route path="/contact" element={<ContactUs />}/>
-        <Route path="/blog" element={<BlogPage />}/>
+        <Route path="/community" element={<BlogPage />}/>
         <Route path="/about-us" element={<AboutUs/>}/>
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </Router>
   );
