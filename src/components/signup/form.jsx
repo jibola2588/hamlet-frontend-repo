@@ -1,6 +1,7 @@
 import logo from "../../assets/images/logo.png"
 import googleLogo from "../../assets/images/Glogo.png"
-import appleLogo from "../../assets/images/applelogo.png"
+import appleLogo from "../../assets/images/apple.png"
+import "./info.css"
 import { useState } from "react"
 
 export const SignUpForm = () => {
@@ -9,12 +10,12 @@ export const SignUpForm = () => {
         setVMessage('Use 8 or more characters with a mix of numbers, letters and symbols')
     }
     return (
-        <div className="lg:pl-[120px] lg:pr-[120px] md:pb-[98px] md:pt-[45px]">
+        <div className="lg:pl-[120px] form--body pl-5 pt-[22px] pr-5 md:px-0 lg:pr-[120px] pb-[98px] md:pt-[45px]">
             <img className="w-[113px]" src={logo} alt="logo" />
-            <div className="flex md:justify-center">
+            <div className="flex justify-center">
                 <div>
                     <div className="flex items-center">
-                        <p className="font-[900] text-[31px] mt-[79.86px]">Be a part of Hamlet today.</p>
+                        <p className="md:font-[900] font-[700] text-[24px] md:text-[31px] mt-[79.86px]">Be a part of Hamlet today.</p>
                         <p className="font-[900] text-[23px] mt-[79.86px]">😊</p>
                     </div>
                     <div className="pt-[26px]">
@@ -24,9 +25,9 @@ export const SignUpForm = () => {
                         </button>
                     </div>
                     <div className="pt-[24px]">
-                        <button className="flex px-[3.63rem] py-2 rounded-[14px] items-center text-white hover:bg-[#2f2f2f] bg-[#0D0D0D]">
-                            <img className="w-20" src={appleLogo} alt="" />
-                            <p className="font-bold">Log In with your Apple ID</p>
+                        <button className="flex px-[4.6rem] py-4 rounded-[14px] items-center text-white hover:bg-[#2f2f2f] bg-[#0D0D0D]">
+                            <img className="w-10" src={appleLogo} alt="" />
+                            <p className="font-bold ml-2">Log In with your Apple ID</p>
                         </button>
                     </div>
                     <div className="pt-[28px]">
