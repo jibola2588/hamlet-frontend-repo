@@ -1,8 +1,9 @@
 import videoFrame from "../../assets/images/videoframe.png";
+import "./info.css";
 
 export const SignUpInfo = () => {
     return (
-        <div className="bg-[#1f3697] pl-[139px] pr-[117px]">
+        <div className="bg-[#1f3697] pl-[139px] info--section">
             <div className="block mt-[593px] text-white">
                 <div>
                     <p className="font-[700] text-[56px]">Get ahead, stay </p>
