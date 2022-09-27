@@ -1,8 +1,8 @@
 import videoFrame from "../../assets/images/videoframe.png";
 
-const QuickInfo = () => {
+const QuickInfo = ({bgColor}) => {
   return (
-    <div className="bg-[#654DE4] pl-[6rem] pb-24 flex items-end w-1/2">
+    <div className={`${bgColor} pl-[6rem] pb-24 flex items-end w-1/2`} >
       <div className=" text-white">
         <div>
           <h1 className="font-[700] text-[56px]">Get ahead, stay ahead</h1>
