@@ -2,6 +2,7 @@ import logo from "../../assets/images/logo.png"
 import googleLogo from "../../assets/images/Glogo.png"
 import appleLogo from "../../assets/images/apple.png"
 import "./info.css"
+import { Link } from "react-router-dom"
 import { useState } from "react"
 
 export const SignUpForm = () => {
@@ -83,7 +84,7 @@ export const SignUpForm = () => {
                     </form>
                     <div className="flex items-center mr-7 justify-center mt-5 text-center font-[450] text-[16px]">
                         <p>Already have an account?</p>
-                        <button className="text-[#1F3697] ml-1">Log in</button>
+                        <Link to="/signin" className="text-[#1F3697] ml-1">Log in</Link>
                     </div>
                 </div>
             </div>
