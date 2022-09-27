@@ -5,7 +5,7 @@ const SignIn = () => {
   return (
     <div className="flex font-[circular std] max-w-[1500px] mx-auto">
       <Form />
-      <QuickInfo />
+      <QuickInfo bgColor={"bg-[#654DE4]"}/>
     </div>
   );
 };
