@@ -14,13 +14,13 @@ const Form = () => {
         </p>
 
         <div className="flex flex-col gap-[26px]">
-          <button className="flex px-[5.5rem] py-5 rounded-[14px] items-center justify-center text-white hover:bg-[#508ff7] bg-[#4285F4]">
+          <button className="flex xs:px-[5.5rem] py-5 rounded-[14px] items-center justify-center text-white hover:bg-[#508ff7] bg-[#4285F4]">
             <img src={googleLogo} alt="" className="w-5 sm:w-fit"/>
-            <p className="font-bold ml-3 text-xs sm:text-md">Continue with Google</p>
+            <p className="font-bold ml-3 text-sm sm:text-lg">Continue with Google</p>
           </button>
-          <button className="flex px-[3.63rem] py-2 rounded-[14px] items-center justify-center text-white hover:bg-[#2f2f2f] bg-[#0D0D0D]">
+          <button className="flex cc py-2 rounded-[14px] items-center justify-center text-white hover:bg-[#2f2f2f] bg-[#0D0D0D]">
             <img className="w-14 sm:w-20" src={appleLogo} alt="" />
-            <p className="font-bold text-xs sm:text-md">Log In with your Apple ID</p>
+            <p className="font-bold text-sm sm:text-lg">Log In with your Apple ID</p>
           </button>
         </div>
 
@@ -68,7 +68,7 @@ const Form = () => {
             </p>
           </div>
 
-          <button className=" py-5 rounded-[14px] font-[450] text-[16px]  text-white bg-black hover:bg-[#2f2f2f] ">
+          <button className="xs:px-[3.63rem] text-sm sm:text-lg py-5 rounded-[14px] font-[450]  text-white bg-black hover:bg-[#2f2f2f] ">
             Login
           </button>
         </form>
