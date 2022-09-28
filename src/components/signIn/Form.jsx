@@ -5,8 +5,8 @@ import { useState } from "react";
 
 const Form = () => {
   return (
-    <div className="w-1/2 h-fit pb-20 bg-white pt-[2.8125rem] ">
-      <div className="max-w-[70%] mx-auto">
+    <div className="w-full lg:w-1/2 h-fit pb-20 bg-white pt-[2.8125rem] ">
+      <div className="max-w-[80%] sm:max-w-[70%] mx-auto">
         <img className="w-[113px]" src={logo} alt="logo" />
 
         <p className="font-[900] text-[31px] mt-[79.86px] pb-[26px]">
@@ -14,13 +14,13 @@ const Form = () => {
         </p>
 
         <div className="flex flex-col gap-[26px]">
-          <button className="flex px-[5.5rem] py-5 rounded-[14px] items-center text-white hover:bg-[#508ff7] bg-[#4285F4]">
-            <img src={googleLogo} alt="" />
-            <p className="font-bold ml-3">Continue with Google</p>
+          <button className="flex px-[5.5rem] py-5 rounded-[14px] items-center justify-center text-white hover:bg-[#508ff7] bg-[#4285F4]">
+            <img src={googleLogo} alt="" className="w-5 sm:w-fit"/>
+            <p className="font-bold ml-3 text-xs sm:text-md">Continue with Google</p>
           </button>
-          <button className="flex px-[3.63rem] py-2 rounded-[14px] items-center text-white hover:bg-[#2f2f2f] bg-[#0D0D0D]">
-            <img className="w-20" src={appleLogo} alt="" />
-            <p className="font-bold">Log In with your Apple ID</p>
+          <button className="flex px-[3.63rem] py-2 rounded-[14px] items-center justify-center text-white hover:bg-[#2f2f2f] bg-[#0D0D0D]">
+            <img className="w-14 sm:w-20" src={appleLogo} alt="" />
+            <p className="font-bold text-xs sm:text-md">Log In with your Apple ID</p>
           </button>
         </div>
 
